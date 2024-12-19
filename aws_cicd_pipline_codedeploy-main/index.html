@@ -1,36 +1,80 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title> DEMO | AWS CLOUD DEPLOYMENT</title>
-  <style>
-    body {
-      color: #000080;
-      background-color: #FFFFFF;
-      font-family: Arial, sans-serif;
-      font-size: 14px;
-    }
-    
-    h1 {
-      font-size: 500%;
-      font-weight: normal;
-      margin-bottom: 0;
-    }
-    
-    h2 {
-      font-size: 200%;
-      font-weight: normal;
-      margin-bottom: 0;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMC Contents</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+        .title {
+            text-align: center;
+            margin: 20px 0;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .car {
+            display: flex;
+            align-items: center;
+            background: #fff;
+            margin-bottom: 20px;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .car img {
+            width: 150px;
+            height: 100px;
+            object-fit: cover;
+            margin-right: 20px;
+            border-radius: 5px;
+        }
+        .car-info {
+            font-size: 18px;
+        }
+        .car-info h2 {
+            margin: 0;
+            font-size: 22px;
+        }
+        .car-info p {
+            margin: 5px 0 0;
+            color: #555;
+        }
+    </style>
 </head>
 <body>
-  <div align="center">
-    <img src="https://s3.ap-south-1.amazonaws.com/www.basava.com/aar_logo_final.png" style="max-width: 20%;">
-    <h1>YEP Bird !!!! </h1>
-      <h2>Welcome to  SOURCE| Evan</h2>
-    <h3>This application was deployed using AWS CodeDeploy.</h3>
-  </div>
+    <div class="container">
+        <div class="title">BMC Contents</div>
+        <h1>Car Prices</h1>
+        <div class="car">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/1998-2001_BMW_328i_%28E46%29_sedan_%282011-07-17%29_01.jpg" alt="BMW E46">
+            <div class="car-info">
+                <h2>BMC 3 Series E46</h2>
+                <p>Price: £20,000</p>
+            </div>
+        </div>
+        <div class="car">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/BMW_325i_E92.jpg" alt="BMW E92">
+            <div class="car-info">
+                <h2>BMC 3 Series E92</h2>
+                <p>Price: £25,000</p>
+            </div>
+        </div>
+        <div class="car">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/1997_BMW_M3_%28E36%29_coupe_%282010-07-11%29.jpg" alt="BMW E36">
+            <div class="car-info">
+                <h2>BMC 3 Series E36</h2>
+                <p>Price: £30,000</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
-
